@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Atividade Branchs </title>
+</head>
+
+<body style="background-color: aliceblue; color: darkcyan;">
+
+    <h1> Branchs </h1>
+    São ramifiações do projeto, o qual permite vários desenvolvedores, trabalharem em diveferentes funcionalidades,
+    sem bugar a versão estável.
+
+
+    <h2>Principais branchs</h2>
+    Branch main -> que é a branch principal, ou seja, a branch estável da aplicação. Versão que é disponibilizada
+    aos clientes.
+
+    <br>Branch developer -> é a branch utilizada pelos testers. Os quais vão testar as novas funcionalidades, correções
+    de bugs, etc.
+
+    <h2>Outras branchs</h2>
+    Para cada nova funcionalidade ou correção de bugs é criada uma nova branch.
+
+    <h2>Padrões para criar nomes de branchs</h2>
+    <b>!IMPORTANTE!</b> Nomes de branchs não têm acento nem Ç.
+    <br><br>Para correções de bugs: fix_identificacao_do_bug
+    <br>Exemplo: fix_botao_de_login, fix_cor_do_cabecalho
+
+    <h3>Para novas funcionalidades:</h3>
+    feat identificacao_de-novo_funcionalidade
+    <br>exemplo: feat_integracao-com_google, feat_nova_tela_de_contato
+    <br>
+    <br>Para atualizar documentação: doc_identificacao_da_alteracao
+    <br>Exemplo: doc_adicionada_nova_imagem
+    <br>
+    <br>Para criação/alteração de tarefas que nao interfere no código:
+    <br>chore_identificacao_da_modificacao
+    <br>Exemplo: chore_atualizado_a_versao_do_banco
+
+    <h2> Comandos para trabaçhar com branchs</h2>
+    <h3> Criação de novas branchs</h3>
+    git checkout -b nome_da_nova_branch
+    <br>Exemplo: git checkout -b fix-botao-da_tela_login
+    <br>Obs: O ideal é sempre criar as branchs a partir da main
+
+    <h3> Listar as branchs existentes </h3>
+    git branch list
+
+    <h3> Trocar de branch </h3>
+    git switch nome_da_branch_que_deseja_entrar
+    <br>Exemplo 01: git switch fix_botao_da-tela_login
+    <br>Exemplo 02: git switch main
+
+    <h3> Excluir uma branch </h3>
+    git branch -D nome_da_branch_que_deseja_exlcuir
+    <br>Exemplo: git branch -D fix_botao_da_tela_login
+
+
+</body>
+
+</html>

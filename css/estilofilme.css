@@ -1,0 +1,12 @@
+*{
+    background-color:#faf8f9 ;
+}
+
+
+
+ul>li{
+    font-size:3rem;
+    background: linear-gradient(to right,#b03858,#d5843b,#ffe7b2,#8fb3d6,#b03858,#d5843b,#ffe7b2,#8fb3d6,#b03858,#d5843b,#ffe7b2,#8fb3d6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
